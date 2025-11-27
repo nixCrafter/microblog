@@ -1,0 +1,239 @@
+# Vietnamese translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-11-27 09:05+0700\n"
+"PO-Revision-Date: 2025-11-27 08:47+0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: vi\n"
+"Language-Team: vi <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: app/email.py:22
+msgid "[Microblog] Reset Your Password"
+msgstr "[Microblog] Đặt Lại Mật Khẩu"
+
+#: app/forms.py:11 app/forms.py:18 app/forms.py:53
+msgid "Username"
+msgstr "Tên đăng nhập"
+
+#: app/forms.py:12 app/forms.py:20 app/forms.py:45
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: app/forms.py:13
+msgid "Remember Me"
+msgstr "Ghi nhớ đăng nhập"
+
+#: app/forms.py:14 app/routes.py:77 app/templates/login.html:5
+msgid "Sign In"
+msgstr "Đăng nhập"
+
+#: app/forms.py:19 app/forms.py:40
+msgid "Email"
+msgstr "Email"
+
+#: app/forms.py:22 app/forms.py:47
+msgid "Repeat Password"
+msgstr "Nhập lại mật khẩu"
+
+#: app/forms.py:24 app/routes.py:98 app/templates/register.html:5
+msgid "Register"
+msgstr "Đăng ký"
+
+#: app/forms.py:30 app/forms.py:67
+msgid "Please use a different username."
+msgstr "Vui lòng sử dụng tên đăng nhập khác."
+
+#: app/forms.py:36
+msgid "Please use a different email address."
+msgstr "Vui lòng sử dụng địa chỉ email khác."
+
+#: app/forms.py:41 app/forms.py:49
+msgid "Request Password Reset"
+msgstr "Yêu cầu đặt lại mật khẩu"
+
+#: app/forms.py:54
+msgid "About me"
+msgstr "Giới thiệu"
+
+#: app/forms.py:56 app/forms.py:77
+msgid "Submit"
+msgstr "Gửi"
+
+#: app/forms.py:75
+msgid "Say something"
+msgstr "Viết gì đó"
+
+#: app/routes.py:31
+msgid "Your post is now live!"
+msgstr "Bài viết của bạn đã được đăng!"
+
+#: app/routes.py:40 app/templates/base.html:27
+msgid "Home"
+msgstr "Trang chủ"
+
+#: app/routes.py:56 app/templates/base.html:30
+msgid "Explore"
+msgstr "Khám phá"
+
+#: app/routes.py:70
+msgid "Invalid username or password"
+msgstr "Tên đăng nhập hoặc mật khẩu không đúng"
+
+#: app/routes.py:96
+msgid "Congratulations, you are now a registered user!"
+msgstr "Chúc mừng, bạn đã đăng ký thành công!"
+
+#: app/routes.py:112
+msgid "Check your email for the instructions to reset your password"
+msgstr "Kiểm tra email để xem hướng dẫn đặt lại mật khẩu"
+
+#: app/routes.py:115 app/templates/reset_password_request.html:5
+msgid "Reset Password"
+msgstr "Đặt lại mật khẩu"
+
+#: app/routes.py:129
+msgid "Your password has been reset."
+msgstr "Mật khẩu của bạn đã được đặt lại."
+
+#: app/routes.py:160
+msgid "Your changes have been saved."
+msgstr "Các thay đổi đã được lưu."
+
+#: app/routes.py:165 app/templates/edit_profile.html:5
+msgid "Edit Profile"
+msgstr "Chỉnh sửa trang cá nhân"
+
+#: app/routes.py:177 app/routes.py:198
+#, python-format
+msgid "User %(username)s not found."
+msgstr "Không tìm thấy người dùng %(username)s."
+
+#: app/routes.py:180
+msgid "You cannot follow yourself!"
+msgstr "Bạn không thể theo dõi chính mình!"
+
+#: app/routes.py:184
+#, python-format
+msgid "You are following %(username)s!"
+msgstr "Bạn đã theo dõi %(username)s!"
+
+#: app/routes.py:201
+msgid "You cannot unfollow yourself!"
+msgstr "Bạn không thể bỏ theo dõi chính mình!"
+
+#: app/routes.py:205
+#, python-format
+msgid "You are not following %(username)s."
+msgstr "Bạn chưa theo dõi %(username)s."
+
+#: app/templates/404.html:4
+msgid "Not Found"
+msgstr "Không tìm thấy"
+
+#: app/templates/404.html:5 app/templates/500.html:6
+msgid "Back"
+msgstr "Quay lại"
+
+#: app/templates/500.html:4
+msgid "An unexpected error has occurred"
+msgstr "Đã xảy ra lỗi không mong muốn"
+
+#: app/templates/500.html:5
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr "Quản trị viên đã được thông báo. Xin lỗi vì sự bất tiện!"
+
+#: app/templates/_post.html:14
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr "%(username)s đã nói %(when)s"
+
+#: app/templates/base.html:9
+msgid "Welcome to Microblog"
+msgstr "Chào mừng đến với Microblog"
+
+#: app/templates/base.html:36
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: app/templates/base.html:40
+msgid "Profile"
+msgstr "Trang cá nhân"
+
+#: app/templates/base.html:43
+msgid "Logout"
+msgstr "Đăng xuất"
+
+#: app/templates/index.html:5
+#, python-format
+msgid "Hi, %(username)s!"
+msgstr "Xin chào, %(username)s!"
+
+#: app/templates/index.html:16 app/templates/user.html:42
+msgid "Newer posts"
+msgstr "Bài mới hơn"
+
+#: app/templates/index.html:21 app/templates/user.html:47
+msgid "Older posts"
+msgstr "Bài cũ hơn"
+
+#: app/templates/login.html:7
+msgid "New User?"
+msgstr "Người dùng mới?"
+
+#: app/templates/login.html:7
+msgid "Click to Register!"
+msgstr "Nhấn để đăng ký!"
+
+#: app/templates/login.html:9
+msgid "Forgot Your Password?"
+msgstr "Quên mật khẩu?"
+
+#: app/templates/login.html:10
+msgid "Click to Reset It"
+msgstr "Nhấn để đặt lại"
+
+#: app/templates/reset_password.html:5
+msgid "Reset Your Password"
+msgstr "Đặt lại mật khẩu của bạn"
+
+#: app/templates/user.html:8
+msgid "User"
+msgstr "Người dùng"
+
+#: app/templates/user.html:11
+msgid "Last seen on"
+msgstr "Truy cập lần cuối"
+
+#: app/templates/user.html:13
+#, python-format
+msgid "%(count)d followers"
+msgstr "%(count)d người theo dõi"
+
+#: app/templates/user.html:13
+#, python-format
+msgid "%(count)d following"
+msgstr "Đang theo dõi %(count)d"
+
+#: app/templates/user.html:15
+msgid "Edit your profile"
+msgstr "Chỉnh sửa trang cá nhân"
+
+#: app/templates/user.html:20
+msgid "Follow"
+msgstr "Theo dõi"
+
+#: app/templates/user.html:27
+msgid "Unfollow"
+msgstr "Bỏ theo dõi"
+
